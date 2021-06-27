@@ -49,7 +49,7 @@ function Board() {
 
   return(
     <Container>
-      <List count={'new'} color="#F00" title={"New"}>
+      <List count={'new'} color="#F00" title={"Novo"}>
         {<New addCard={addNew('ToDo')} />}
       
       </List>

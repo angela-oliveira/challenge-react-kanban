@@ -2,7 +2,6 @@
 
 O propósito desse desafio é a criação de frontend para um quadro de kanban. Esse quadro possui listas, que contém cards.
 
-As imagens abaixo são apenas uma ilustração da funcionalidade desejada:
 
 ![](https://github.com/angela-oliveira/files/blob/master/kanban1.png?raw=true)
 

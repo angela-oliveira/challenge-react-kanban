@@ -5,10 +5,16 @@ O propósito desse desafio é a criação de frontend para um quadro de kanban. 
 
 ![](https://github.com/angela-oliveira/files/blob/master/kanban1.png?raw=true)
 
-Com os dois primeiros cards em modo de edição:
+Com o card em modo de edição:
 
 ![](https://github.com/angela-oliveira/files/blob/master/kanban2.png?raw=true)
+
+Mensagem de erro: 
+
 ![](https://github.com/angela-oliveira/files/blob/master/kanban3.png?raw=true)
+
+Tooltip:
+
 ![](https://github.com/angela-oliveira/files/blob/master/kanban.png?raw=true)
 
 Esse é um protótipo bem qualquer nota, sem estilo, nem considerações de UI e UX. 

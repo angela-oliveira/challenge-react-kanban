@@ -1,6 +1,6 @@
 # Desafio Técnico - Frontend
 
-O propósito desse desafio é a criação de frontend para um quadro de kanban. Esse quadro possui listas, que contém cards.
+O propósito desse desafio é a criação de frontend usando Javascript + REACT para um quadro de kanban. Esse quadro possui listas, que contém cards.
 
 
 ![](https://github.com/angela-oliveira/files/blob/master/kanban1.png?raw=true)
@@ -20,8 +20,6 @@ Tooltip:
 
 ## Rodando a API
 
-Uma API de exemplo foi disponibilizada na pasta BACK.
-
 Para rodá-la, faça:
 
 ```console
@@ -32,14 +30,18 @@ Para rodá-la, faça:
 
 Ela responderá na porta 5000.
 
-## Desafio
 
-Você precisa criar um frontend de acordo com os requisitos abaixo, que deve ser desenvolvido na pasta "FRONT".
+## Rodando o FRON
 
-Para criar seu frontend você pode escolher entre duas tecnologias:
+Para rodá-l, faça:
 
-1. Javascript ou Typescript + REACT
-2. Typescript + ANGULAR
+```console
+> cd FRONT
+> npm install
+> npm start
+```
+
+Ela responderá na porta 3000.
 
 ## Requisitos
 
@@ -138,13 +140,3 @@ A api retornará a lista dos cards que sobraram (igual ao GET).
 ```
 
 ---
-
-**Atenção**: As rotas tem validações e retornos diferentes dependendo do resultado:
-
-> POST e PUT retornam 400 se titulo, conteudo ou lista forem avaliados como falsy.
-> 
-> PUT também retorna 400 se o id passado na URL não for igual ao do objeto passado no corpo da requisição.
-> 
-> PUT e DELETE retornam 404 se não encontrarem um card com o id passado na URL.
-> 
-> Todas as rotas retornam 401 se o token não for passado, for inválido, mal-formado ou expirado.

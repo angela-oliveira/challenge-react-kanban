@@ -4,7 +4,7 @@ O propósito desse desafio é a criação de frontend para um quadro de kanban. 
 
 As imagens abaixo são apenas uma ilustração da funcionalidade desejada:
 
-![](https://s3-sa-east-1.amazonaws.com/lcpi/62b90509-8792-4fb1-9aa7-240f5a22c88e.png)
+![](https://github.com/angela-oliveira/files/blob/master/kanban.png?raw=true)
 
 Com os dois primeiros cards em modo de edição:
 
